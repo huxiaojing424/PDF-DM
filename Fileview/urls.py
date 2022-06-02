@@ -21,16 +21,16 @@ from django.contrib.auth.decorators import login_required
 from file import views
 
 urlpatterns = [
-    path(r'^admin/', admin.site.urls),
-    path(r'^loadview$',views.index),
-    path(r'^fileload$',views.fileload),
-    path(r'^fileview$',views.fileview),#页面展示
-    path(r'^queryfile$',views.queryfile),
-    path(r'^login/$',views.loginManager,),
-    path(r'^loginVerify$',views.loginVerify),
-    path(r'^filedown$',views.filedown),
-    path(r'^keyQuery$',views.keyQuery),
-    path(r'deletefile$',views.deletefile),
+    path('admin/', admin.site.urls),
+    path('loadview',views.index),
+    path('fileload',views.fileload),
+    path('fileview',views.fileview),#页面展示
+    path('queryfile',views.queryfile),
+    path('login/',views.loginManager,),
+    path('loginVerify',views.loginVerify),
+    path('filedown',views.filedown),
+    path('keyQuery',views.keyQuery),
+    path('deletefile',views.deletefile),
     # path(r'^verifyuser$',views.verifyuser),
-    path(r'^logoutuser$',views.logoutuser)
+    path('logoutuser',views.logoutuser)
 ]
