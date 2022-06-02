@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b13a8de7-508a-4b6c-8b59-d55be3df5878" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c76c5d35-aff0-4c35-9895-dc8c065e3de8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c76c5d35-aff0-4c35-9895-dc8c065e3de8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Fileview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Fileview.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fileview/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fileview/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fileview/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fileview/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -293,8 +292,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528772955301</updated>
-      <workItem from="1654137122335" duration="1493000" />
+      <workItem from="1654137122335" duration="2897000" />
     </task>
+    <task id="LOCAL-00001" summary="修改数据密码">
+      <created>1654139609631</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654139609631</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -339,6 +346,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改数据密码" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改数据密码" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://D:/Python36/Lib/site-packages/django/core/paginator.py" />
