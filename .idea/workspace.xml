@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b13a8de7-508a-4b6c-8b59-d55be3df5878" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Fileview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Fileview.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fileview/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fileview/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="b13a8de7-508a-4b6c-8b59-d55be3df5878" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -292,7 +287,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528772955301</updated>
-      <workItem from="1654137122335" duration="2897000" />
+      <workItem from="1654137122335" duration="3159000" />
     </task>
     <task id="LOCAL-00001" summary="修改数据密码">
       <created>1654139609631</created>
@@ -301,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654139609631</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改__init__.py文件">
+      <created>1654141706946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654141706946</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -349,7 +351,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改数据密码" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改数据密码" />
+    <MESSAGE value="修改__init__.py文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改__init__.py文件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://D:/Python36/Lib/site-packages/django/core/paginator.py" />

@@ -13,7 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url
+from django.urls import path
 from django.contrib import admin
 from django.contrib.auth import views as auth_views
 from django.contrib.auth.decorators import login_required
@@ -21,16 +21,16 @@ from django.contrib.auth.decorators import login_required
 from file import views
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^loadview$',views.index),
-    url(r'^fileload$',views.fileload),
-    url(r'^fileview$',views.fileview),#页面展示
-    url(r'^queryfile$',views.queryfile),
-    url(r'^login/$',views.loginManager,),
-    url(r'^loginVerify$',views.loginVerify),
-    url(r'^filedown$',views.filedown),
-    url(r'^keyQuery$',views.keyQuery),
-    url(r'deletefile$',views.deletefile),
-    # url(r'^verifyuser$',views.verifyuser),
-    url(r'^logoutuser$',views.logoutuser)
+    path(r'^admin/', admin.site.urls),
+    path(r'^loadview$',views.index),
+    path(r'^fileload$',views.fileload),
+    path(r'^fileview$',views.fileview),#页面展示
+    path(r'^queryfile$',views.queryfile),
+    path(r'^login/$',views.loginManager,),
+    path(r'^loginVerify$',views.loginVerify),
+    path(r'^filedown$',views.filedown),
+    path(r'^keyQuery$',views.keyQuery),
+    path(r'deletefile$',views.deletefile),
+    # path(r'^verifyuser$',views.verifyuser),
+    path(r'^logoutuser$',views.logoutuser)
 ]
