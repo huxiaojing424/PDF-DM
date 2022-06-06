@@ -22,15 +22,15 @@ from file import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('loadview',views.index),
-    path('fileload',views.fileload),
-    path('fileview',views.fileview),#页面展示
-    path('queryfile',views.queryfile),
-    path('login/',views.loginManager,),
-    path('loginVerify',views.loginVerify),
-    path('filedown',views.filedown),
-    path('keyQuery',views.keyQuery),
-    path('deletefile',views.deletefile),
-    # path(r'^verifyuser$',views.verifyuser),
-    path('logoutuser',views.logoutuser)
+    path('loadview', views.index),
+    path('fileload', views.fileload),
+    path('fileview', views.fileview),  # 页面展示
+    path('queryfile', views.queryfile),
+    path('login/', views.loginManager, ),
+    path('loginVerify', views.loginVerify),
+    path('filedown', views.filedown),
+    path('keyQuery', views.keyQuery),
+    path('deletefile', views.deletefile),
+    # path('verifyuser',views.verifyuser),
+    path('logoutuser', views.logoutuser)
 ]

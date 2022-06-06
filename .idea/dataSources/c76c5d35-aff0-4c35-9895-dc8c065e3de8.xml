@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="Django default">
   <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.23">
-    <root id="1">
-      <DefaultCasing>lower/lower</DefaultCasing>
-    </root>
+    <root id="1"/>
     <schema id="2" parent="1" name="fileview">
       <Current>1</Current>
       <Collation>utf8_general_ci</Collation>

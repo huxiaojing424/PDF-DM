@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b13a8de7-508a-4b6c-8b59-d55be3df5878" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c76c5d35-aff0-4c35-9895-dc8c065e3de8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c76c5d35-aff0-4c35-9895-dc8c065e3de8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fileview/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fileview/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/file/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,7 +292,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528772955301</updated>
-      <workItem from="1654137122335" duration="3540000" />
+      <workItem from="1654137122335" duration="5181000" />
+      <workItem from="1654425474733" duration="2161000" />
     </task>
     <task id="LOCAL-00001" summary="修改数据密码">
       <created>1654139609631</created>
@@ -312,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654142033248</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改urls.py文件">
+      <created>1654142511731</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654142511731</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
